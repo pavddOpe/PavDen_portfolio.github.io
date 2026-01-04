@@ -12,102 +12,92 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 				<style>
-		    /* Matrix Neon Green Dark Theme */
-		    body {
-		        background-color: #000000 !important; /* Pure black overall */
-		        color: #b0ffbd !important; /* Light green-tinted text */
-		    }
-		    
-		    #wrapper {
-		        background-color: #0a0a0a !important; /* Very subtle dark for depth */
-		    }
-		    
-		    /* Top intro section */
-		    #intro {
-		        background-color: #000000 !important;
-		    }
-		    
-		    /* Main projects section */
-		    #main {
-		        background-color: #000000 !important;
-		    }
-		    
-		    /* Project cards - subtle dark panels */
-		    article {
-		        background-color: #111111 !important;
-		        border: 1px solid #39ff14 !important; /* Neon green border */
-		        border-radius: 8px !important;
-		        padding: 2em !important;
-		    }
-		    
-		    /* Scrolling fixed header */
-		    header#header {
-		        background-color: rgba(0, 0, 0, 0.95) !important;
-		        backdrop-filter: blur(10px) !important;
-		        border-bottom: 1px solid #39ff14 !important; /* Neon line */
-		    }
-		    
-		    header#header .logo {
-		        color: #39ff14 !important; /* Neon "Projects" text */
-		    }
-		    
-		    /* Navigation bar */
-		    #nav {
-		        background-color: #000000 !important;
-		    }
-		    
-		    /* Projects List button - neon style */
-		    #nav .links li a {
-		        background-color: transparent !important;
-		        color: #39ff14 !important; /* Neon green text */
-		        border: 2px solid #39ff14 !important; /* Neon border */
-		        border-radius: 6px !important;
-		        box-shadow: 0 0 10px #39ff14 !important; /* Glow effect */
-		    }
-		    #nav .links li.active a {
-		        background-color: #39ff14 !important; /* Filled neon when active */
-		        color: #000000 !important; /* Black text on filled */
-		        box-shadow: 0 0 20px #39ff14 !important;
-		    }
-		    
-		    /* Headings - bright neon */
-		    h1, h2, h3, h4, h5, h6 {
-		        color: #39ff14 !important;
-		        text-shadow: 0 0 10px #39ff14 !important; /* Subtle glow */
-		    }
-		    
-		    /* Links and buttons */
-		    a {
-		        color: #39ff14 !important;
-		    }
-		    a:hover {
-		        color: #7fff00 !important; /* Brighter on hover */
-		        text-shadow: 0 0 15px #39ff14 !important;
-		    }
-		    
-		    .button {
-		        background-color: transparent !important;
-		        color: #39ff14 !important;
-		        border: 2px solid #39ff14 !important;
-		        box-shadow: 0 0 10px #39ff14 !important;
-		    }
-		    .button:hover {
-		        background-color: #39ff14 !important;
-		        color: #000000 !important;
-		        box-shadow: 0 0 20px #39ff14 !important;
-		    }
-		    
-		    /* Icons (GitHub, LinkedIn) */
-		    .icons a {
-		        color: #39ff14 !important;
-		    }
-		    
-		    /* Footer */
-		    #footer {
-		        background-color: #000000 !important;
-		        border-top: 1px solid #39ff14 !important;
-		    }
-		</style>
+    /* Ultimate Fix: Professional Unified Dark Theme for Massively Template */
+    body, html {
+        background-color: #0f172a !important; /* Deep slate – base for everything */
+    }
+    
+    /* Force ALL main areas to match */
+    #wrapper, #intro, #main, #footer, #banner {
+        background-color: #0f172a !important;
+        background: #0f172a !important;
+    }
+    
+    /* Critical: Override the hidden parallax background element */
+    .main-bg, #intro-bg {
+        background-color: #0f172a !important;
+        background: #0f172a !important;
+        opacity: 1 !important;
+    }
+    
+    /* Intro overlay (the dark tint on top section) */
+    #intro::before {
+        background: rgba(15, 23, 42, 0.8) !important;
+    }
+    
+    /* Project cards – nice subtle separation */
+    article {
+        background-color: #1e293b !important;
+        border-radius: 12px !important;
+        padding: 2.5em !important;
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4) !important;
+    }
+    
+    /* Fixed header that appears on scroll */
+    header#header {
+        background-color: rgba(15, 23, 42, 0.97) !important;
+        backdrop-filter: blur(12px) !important;
+        border-bottom: 1px solid #334155 !important;
+    }
+    
+    header#header .logo {
+        color: #60a5fa !important;
+    }
+    
+    /* Nav bar */
+    #nav {
+        background-color: rgba(15, 23, 42, 0.97) !important;
+    }
+    
+    /* Clean "Projects List" in nav */
+    #nav .links li a {
+        background: transparent !important;
+        color: #94a3b8 !important;
+        border: none !important;
+    }
+    #nav .links li.active a {
+        color: #60a5fa !important;
+        background: rgba(96, 165, 250, 0.15) !important;
+        border-radius: 8px !important;
+    }
+    
+    /* Text and accents */
+    body {
+        color: #cbd5e1 !important;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        color: #60a5fa !important;
+    }
+    a {
+        color: #93c5fd !important;
+    }
+    a:hover {
+        color: #bfdbfe !important;
+    }
+    .button {
+        background-color: #1e40af !important;
+        border: none !important;
+    }
+    .button:hover {
+        background-color: #2563eb !important;
+    }
+    .icons a {
+        color: #94a3b8 !important;
+    }
+    .icons a:hover {
+        color: #60a5fa !important;
+    }
+</style>
 	</head>
 	<body class="is-preload">
 
@@ -265,6 +255,7 @@
 	</body>
 
 </html>
+
 
 
 
