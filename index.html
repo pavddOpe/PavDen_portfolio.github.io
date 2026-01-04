@@ -12,35 +12,70 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<style>
+    /* Full Dark Professional Theme - Fixed Version */
     body {
-        background-color: #0a0e1a !important;
-        color: #cbd5e1 !important;
+        background-color: #0a0e1a !important; /* Deep dark overall */
+        color: #cbd5e1 !important; /* Light text */
     }
     
     #wrapper {
         background-color: #0f172a !important;
     }
     
-    #intro, header#banner {
+    /* Top intro section */
+    #intro {
         background-color: #020617 !important;
     }
     
+    /* Main projects section */
     #main {
         background-color: #111827 !important;
     }
     
+    /* Scrolling fixed header that appears on scroll */
+    header#header {
+        background-color: rgba(2, 6, 23, 0.9) !important; /* Very dark with slight transparency */
+        backdrop-filter: blur(10px) !important; /* Nice modern blur effect */
+        border-bottom: 1px solid #1e293b !important;
+    }
+    
+    /* The "Projects" logo in the fixed header */
+    header#header .logo {
+        color: #64d5d8 !important; /* Teal to match headings */
+    }
+    
+    /* Navigation bar */
+    #nav {
+        background-color: #1e293b !important;
+    }
+    
+    /* Fix the white "Projects List" button - make it match the theme */
+    #nav .links li a {
+        background-color: transparent !important; /* No white background */
+        color: #7dd3fc !important; /* Light blue text */
+        border: 2px solid #64d5d8 !important; /* Teal border */
+        border-radius: 8px !important;
+    }
+    #nav .links li.active a { /* The current active one */
+        background-color: #1e40af !important; /* Dark blue fill for active */
+        color: #ffffff !important;
+    }
+    
+    /* Project cards */
     article {
-        background-color: #1e293b !important; 
+        background-color: #1e293b !important;
         border-radius: 8px !important;
         padding: 2em !important;
     }
     
+    /* Headings */
     h1, h2, h3, h4, h5, h6 {
-        color: #64d5d8 !important;
+        color: #64d5d8 !important; /* Teal-cyan */
     }
     
+    /* Links and buttons */
     a {
-        color: #7dd3fc !important; 
+        color: #7dd3fc !important;
     }
     a:hover {
         color: #a5f3fc !important;
@@ -49,15 +84,13 @@
     .button {
         background-color: #1e40af !important;
         color: white !important;
+        border: none !important;
     }
     .button:hover {
         background-color: #2563eb !important;
     }
     
-    #nav {
-        background-color: #1e293b !important;
-    }
-    
+    /* Footer */
     #footer {
         background-color: #020617 !important;
     }
@@ -219,6 +252,7 @@
 	</body>
 
 </html>
+
 
 
 
