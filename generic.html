@@ -6,34 +6,78 @@
 -->
 <html>
 	<head>
-		<title>Generic Page - Massively by HTML5 UP</title>
+		<title>Pavlo Denysiuk | Data Analytics Portfolio | Automization projects</title>
+		<meta name="description" content="Portfolio of Pavlo Denysiuk featuring data analytics projects in Python and other Automizations.">
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			#intro h1 {
+				font-size: 90px;
+				margin-bottom: 100px;
+			}
+			#intro h2 {
+				font-size: 50px;
+				margin-bottom: 90px;
+			}
+			.contact-info {
+				width: 100%;
+				display: grid;
+				grid-template-columns: repeat(3, 1fr);
+				margin-top: 1.5rem;
+				gap: 0.7rem;
+				text-align-last: center;
+			}
+			.contact-social {
+				text-align: center;
+			}
+
+			.contact-social h3 {
+				margin-bottom: 1rem;
+			}
+		</style>
 	</head>
 	<body class="is-preload">
 
 		<!-- Wrapper -->
-			<div id="wrapper">
+			<div id="wrapper" class="fade-in">
+
+				<!-- Intro -->
+					<div id="intro">
+					    <h1>Pavlo Denysiuk<br /></h1>
+					    <h2>Analytics Portfolio<br /></h2>
+
+						
+					    <p>I'm a data enthusiast passionate about turning raw data into meaningful insights.</p>
+					    
+					    <p>I enjoy working with SQL, Excel, Tableau, Python, Power BI<br /> and other tools (for instance SAP & Salesforce) to solve real-world problems.</p>
+					    
+					    <p>Here are some of my completed projects (more coming soon!).</p>
+					    
+					    <a href="https://github.com/pavddOpe/pav-data-analytics-portfolio">@PavloDenysiuk</a>
+					    
+					    <ul class="actions">
+					        <li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+					    </ul>
+					</div>
 
 				<!-- Header -->
 					<header id="header">
-						<a href="index.html" class="logo">Massively</a>
+						<a href="https://github.com/pavddOpe/pav-data-analytics-portfolio" class="logo">Projects</a>
 					</header>
 
 				<!-- Nav -->
 					<nav id="nav">
 						<ul class="links">
-							<li><a href="index.html">This is Massively</a></li>
-							<li class="active"><a href="generic.html">Generic Page</a></li>
-							<li><a href="elements.html">Elements Reference</a></li>
+							<li><a href="index1.html">List of Projects</a></li>
+							<li class="active"><a href="#py-main-project">Automation Scripts in Python</a></li>
 						</ul>
 						<ul class="icons">
-							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+							<li><a href="https://github.com/pavddOpe/pav-data-analytics-portfolio/tree/main" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+							<li><a href="https://www.linkedin.com/in/pavlo-den/"class="icon brands alt fa-linkedin"><span class="label">Linkedin</span></a></li>
 						</ul>
 					</nav>
 
@@ -41,69 +85,46 @@
 					<div id="main">
 
 						<!-- Post -->
-							<section class="post">
+							<article id="py-main-project" class="post featured">
 								<header class="major">
-									<span class="date">April 25, 2017</span>
-									<h1>This is a<br />
-									Generic Page</h1>
-									<p>Aenean ornare velit lacus varius enim ullamcorper proin aliquam<br />
-									facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor<br />
-									amet nullam sed etiam veroeros.</p>
+									<h2><a href="https://github.com/pavddOpe/pav-data-analytics-portfolio/tree/main/05_BMI_calculator_w_PY" target="blank">Body-Mass Index calculator<br />
+									</a></h2>
+									<p>Simple and short automative, Python-based calculator that can validate your BMI index base on your weight and height.</p>
+									<p>Demonstrates input validation, conditional logic and result categorization.</p>
 								</header>
-								<div class="image main"><img src="images/pic01.jpg" alt="" /></div>
-								<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur sapien risus, commodo eget turpis at, elementum convallis enim turpis, lorem ipsum dolor sit amet nullam.</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus. Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum.</p>
-							</section>
+								<a class="image main"><img src="images/background.jpg" /></a>
+								<ul class="actions special">
+									<li><a href="https://huggingface.co/spaces/jdPaDavan/bmi-calculator-x" class="button large">Try it live</a></li>
+								</ul>
+							</article>
 
 					</div>
 
 				<!-- Footer -->
 					<footer id="footer">
-						<section>
-							<form method="post" action="#">
-								<div class="fields">
-									<div class="field">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
-									</div>
-									<div class="field">
-										<label for="email">Email</label>
-										<input type="text" name="email" id="email" />
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="3"></textarea>
-									</div>
-								</div>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
-							</form>
-						</section>
 						<section class="split contact">
-							<section class="alt">
-								<h3>Address</h3>
-								<p>1234 Somewhere Road #87257<br />
-								Nashville, TN 00000-0000</p>
-							</section>
-							<section>
-								<h3>Phone</h3>
-								<p><a href="#">(000) 000-0000</a></p>
-							</section>
-							<section>
-								<h3>Email</h3>
-								<p><a href="#">info@untitled.tld</a></p>
-							</section>
-							<section>
-								<h3>Social</h3>
-								<ul class="icons alt">
-									<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</section>
-						</section>
+							<div class="contact-info">
+								<section class="alt">
+									<h5>Address</h5>
+									<p><a href="#">Poland</a></p>
+								</section>
+								<section>
+									<h5>Phone</h5>
+									<p><a href="#">+48 730 203 567</a></p>
+								</section>
+								<section>
+									<h5>Email</h5>
+									<p><a href="#">pashadenysyuk0@gmail.com</a></p>
+								</section>
+							</div>	
+							<div class="contact-social">
+								<h5>Find me online</h5>
+									<ul class="icons alt">
+										<li><a href="https://github.com/pavddOpe/pav-data-analytics-portfolio/tree/main" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+										<li><a href="https://www.linkedin.com/in/pavlo-den/"class="icon brands alt fa-linkedin"><span class="label">Linkedin</span></a></li>
+									</ul>
+							</div>
+						</section>			
 					</footer>
 
 				<!-- Copyright -->
