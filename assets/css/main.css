@@ -3484,7 +3484,9 @@ input, select, textarea {
 				#intro h2 {
 					font-size: 2rem;
 					line-height: 0.8;
-					margin-bottom: 0.7rem;
+					margin-bottom: 0.8rem;
+					word-break: break-word;
+       	 			hyphens: auto;
 				}
 
 				#intro p {
@@ -3502,7 +3504,7 @@ input, select, textarea {
 		        font-size: 2.1rem !important;
 		    }
 			#intro h2 {
-					font-size: 1.7rem;
+					font-size: 1.7rem !important;
 				}
 		}
 		
@@ -3511,7 +3513,7 @@ input, select, textarea {
 		        font-size: 1.9rem !important;
 		    }
 			#intro h2 {
-					font-size: 1.3rem;
+					font-size: 1.3rem !important;
 				}
 		}
 
@@ -4890,6 +4892,7 @@ html {
 }
 
 	
+
 
 
 
