@@ -3387,10 +3387,10 @@ input, select, textarea {
 				}
 
 		#intro h1 {
-			font-size: clamp(2.2rem, 8vw, 5rem);
-		    line-height: 1.1;
-		    margin: 0 0 1.5rem 0;
-		    word-break: break-word; 
+			font-size: clamp(2.6rem, 9vw, 5rem);   /* min 2.6rem | skaluje się płynnie | max 5rem */
+		    line-height: 1.05;
+		    margin-bottom: 0.5rem;
+		    word-break: break-word;
 		}
 
 		#intro p {
@@ -4865,4 +4865,5 @@ html {
 
 
 	
+
 
