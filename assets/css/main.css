@@ -3475,9 +3475,16 @@ input, select, textarea {
 			}
 
 				#intro h1 {
-					font-size: 2rem;
+					font-size: 2.5rem;
 					line-height: 1.1;
-					margin-bottom: 1rem;
+					margin-bottom: 0.8rem;
+					word-break: break-word;
+       	 			hyphens: auto;
+				}
+				#intro h2 {
+					font-size: 2rem;
+					line-height: 0.8;
+					margin-bottom: 0.7rem;
 				}
 
 				#intro p {
@@ -3489,6 +3496,23 @@ input, select, textarea {
 					display: none;
 				}
 
+		}
+		@media screen and (max-width: 480px) {
+		    #intro h1 {
+		        font-size: 2.1rem !important;
+		    }
+			#intro h2 {
+					font-size: 1.7rem;
+				}
+		}
+		
+		@media screen and (max-width: 360px) {
+		    #intro h1 {
+		        font-size: 1.9rem !important;
+		    }
+			#intro h2 {
+					font-size: 1.3rem;
+				}
 		}
 
 /* Header */
@@ -4866,6 +4890,7 @@ html {
 }
 
 	
+
 
 
 
